@@ -1,0 +1,30 @@
+
+:root {
+    --primary-color: rgb(172, 172, 172);
+    --secondary-color: rgb(101, 163, 114);
+    --tertiary-color: rgb(87, 36, 168);
+}
+
+body {
+    background-color: var(--primary-color);
+    background-image: url('C:/Users/luana/OneDrive/Imagens/1rm.jpg');
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: rgb(189, 189, 189);
+    box-shadow: 5px 5px 5px gray;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight:  bold;
+    background-color: rgb(90, 204, 212);
+    margin-bottom: 5px;
+    border: 2px solid rgb(117, 117, 117);
+}
