@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 1RM</title>
+</head>
+<body>
+    <H1>Calculadora de 1 repetição máxima</H1>
+
+    <div>
+        <form>
+            <label for="exer">
+                <p>Nome do exercício</p>
+            </label>
+            <p>
+                <input placeholder='supino' name='exer' id='exer'>
+            </p>
+
+            <label for="peso">
+                <p>Peso total usado no exercício</p>
+            </label>
+            <p>
+                <input type="number" placeholder='100' name='peso' id='peso'> Kg 
+            </p>
+
+            <label for="falha">
+                <p>Em que repetição chegou a falha?</p>
+            </label>
+            <p>
+                <input type="number" placeholder='10' name='falha' id='falha'>
+            </p>
+            
+            <label for="dieta">
+                <p>Como foi sua alimentação antes desse teste?</p>
+            </label>
+            <p>
+                <select names="dieta" id="dieta" value='1.0'>
+                    <option disabled selected>Escolha uma opção</option>
+                    <option value="0.9"> Fraca, pouco carboidrato, estava treinando com fome</option>
+                    <option value='1.0'> Boa, estou seguindo uma dieta balanceada</option>
+                    <option value=0.9> Demais, acabei comendo uma quantidade que me causou incomodos durante o treino</option>
+                </select>
+            </p>
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
