@@ -1,30 +1,79 @@
 
 :root {
-    --primary-color: rgb(172, 172, 172);
-    --secondary-color: rgb(101, 163, 114);
-    --tertiary-color: rgb(87, 36, 168);
+    --primary-color: rgb(150, 150, 150);
+    --secondary-color: rgb(63, 168, 86);
+    --tertiary-color: rgb(0, 0, 0);
 }
 
 body {
     background-color: var(--primary-color);
-    background-image: url('C:/Users/luana/OneDrive/Imagens/1rm.jpg');
     font-size: 15px;
     font-family: sans-serif;
 }
 
 #container {
-    height: 525px;
-    width: 360px;
-    margin: 100px auto;
-    background: rgb(189, 189, 189);
-    box-shadow: 5px 5px 5px gray;
+    height: 600px;
+    width: 560px;
+    margin: 20px auto;
+    background: #849fc7;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius:25px;
+}
+
+h1{
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 10px;
+    padding-left: 30px;
+    text-transform: justify;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 p {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+    color: rgb(54, 54, 54);
+    font-size: 20px;
     font-weight:  bold;
-    background-color: rgb(90, 204, 212);
-    margin-bottom: 5px;
-    border: 2px solid rgb(117, 117, 117);
+    background-color: rgb(121, 170, 123);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+h5{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+select {
+    font-size: 20px ;
+    text-indent: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 530px;
+}
+
+Input{
+    padding: 5px;
+    font-size: 15px;
+}
+Input:focus {
+    border: 3px solid var(--secondary-color);
+    outline: none;
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 20px;
+    width: 200px;
+
 }

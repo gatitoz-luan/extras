@@ -13,37 +13,37 @@
         <H1>Calculadora de 1 repetição máxima</H1>
         </div>
         <div>
-            <form>
+            <form class="tipsForm">
                 <label for="exer">
                     <p>Nome do exercício</p>
                 </label>
                 <h5>
-                    <input placeholder='supino' name='exer' id='exer'>
+                    <input placeholder='supino' name='exer' id='exer'class="formInput">
                 </h5>
 
                 <label for="peso">
                     <p>Peso total usado no exercício</p>
                 </label>
                 <h5>
-                    <input type="number" placeholder='100' name='peso' id='peso'> Kg 
+                    <input type="number" placeholder='100' name='peso' id='peso'class="formInput"> Kg 
                 </h5>
 
                 <label for="falha">
                     <p>Em que repetição chegou a falha?</p>
                 </label>
                 <h5>
-                    <input type="number" placeholder='10' name='falha' id='falha'>
+                    <input type="number" placeholder='10' name='falha' id='falha'class="formInput">
                 </h5>
                 
                 <label for="dieta">
                     <p>Como foi sua alimentação antes desse teste?</p>
                 </label>
                 <h5>
-                    <select names="dieta" id="dieta" value='1.0'>
+                    <select names="dieta" id="dieta" value='1.0'class="formselect">
                         <option disabled selected>Escolha uma opção</option>
                         <option value="0.9"> Fraca, pouco carboidrato, estava treinando com fome</option>
                         <option value='1.0'> Boa, estou seguindo uma dieta balanceada</option>
-                        <option value=0.9> Demais, acabei comendo uma quantidade que me causou incomodos durante o treino</option>
+                        <option value=0.9> Exagerei, me causou incomodos durante o treino</option>
                     </select>
                 </h5>
                 <button type="submit">Calcular</button>
