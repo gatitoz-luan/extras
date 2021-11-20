@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora 1RM</title>
     <link rel="stylesheet" href="calculadora.css"/>
+
 </head>
 <body>
     <div id="container">
@@ -13,7 +14,7 @@
         <H1>Calculadora de 1 repetição máxima</H1>
         </div>
         <div>
-            <form class="tipsForm">
+            <form class="tipsForm" id="tipsForm">
                 <label for="exer">
                     <p>Nome do exercício</p>
                 </label>
@@ -50,4 +51,19 @@
             </form>
         </div>
     </div>
+    <div id='resultado'>
+        <h2 style="text-align:center">O que é 1RM?</h2>
+        <h6>O objetivo é realizar uma equação para prever a carga de uma repetição máxima (1RM) em homens e mulheres, usando exclusivamente o fator trabalho realizado, tendo em vista que dentro de uma mesma série de exercício sem descanso, a capacidade do musculo de realizar trabalho, será muito próxima em apenas uma repetição do que o mesmo esporço sendo dividido em mais repetições do movimento.</h6>
+        <h3>Utilidade desse software</h3>
+        <h6>
+            Pensado para ajudar quem pratica musculação, crossfit e especialmente powerlifting. Executar um treino com minimo de repetições para um máximo esforço exige muito não apenas dos musculos, mas como de tendões e ossos, estes com a frequencia podem gerar lesões graves. 
+            Usando esse software o treino pode ser melhor aproveitado e com menos riscos.
+            Essa tecnologia pode ser aplicada também na estratégia de progressão de cargas.
+        </h6>
+        <div id='totaltip'>
+            <h4>Você conseguiria levantar até <span id='tot'>.?.</span> Kg</h4>
+        </div>
+    </div>
+    <script type='text/javascript' scr='script.js'></script>
 </body>
+</html>
