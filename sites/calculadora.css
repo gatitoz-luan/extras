@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color: rgb(150, 150, 150);
+    --primary-color: #969696;
     --secondary-color: rgb(63, 168, 86);
     --tertiary-color: rgb(0, 0, 0);
 }
@@ -15,7 +15,7 @@ body {
     height: 600px;
     width: 560px;
     margin: 20px ;
-    background: #849fc7;
+    background: #809BBF;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -26,7 +26,7 @@ body {
     height: 595px;
     width: 700px;
     margin-top: -620px;
-    background: #a3b5cf;
+    background: #809BBF;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -76,13 +76,14 @@ h3{
 }
 
 h4{
-    background-color: gray;
+    background-color: #969696;
     color: var(--tertiary-color);
     padding: 10px;
     padding-left: 30px;
     text-transform: justify;
     font-size: 30px;
-    border-top-right-radius: 20px;
+    border: 2px solid black;
+
 }
 
 h5{
