@@ -45,7 +45,7 @@ p {
     padding-left: 20px;
 }
 
-h1{
+.titulo{
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     padding: 10px;
